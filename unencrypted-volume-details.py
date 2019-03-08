@@ -1,7 +1,7 @@
 import boto3
 from botocore.client import Config
 
-profiles = ['genprod']  # , 'gendev', 'genprod', 'ecommdev', 'ecommqa', 'ecommprod', 'sapdev', 'sapqa', 'sapprod', 'security']
+profiles = ['sandbox2']  # 
 config = Config(region_name='us-east-1')
 
 def volumedetails():
